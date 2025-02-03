@@ -17,3 +17,13 @@ for(let i = 0; i < sales.length; i++) {
     totalSales += sales[i]
 }
 console.log(`Total sales: $${totalSales}`);
+
+// Task 3: While Loop
+let stock = 10; // Current stock
+
+while (stock > 0) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--; // Decreasing by 1
+}
+
+console.log('Stock depleted');
