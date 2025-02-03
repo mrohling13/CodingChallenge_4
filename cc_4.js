@@ -61,3 +61,11 @@ orders.forEach(order => {
     console.log(`order ID: ${order}`)
 }); // logging of order IDs
 
+// Task 8: Function Declaration
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+let tax = calculateTax(1000, 0.07);
+
+console.log(`Tax: $${tax}`);
+
